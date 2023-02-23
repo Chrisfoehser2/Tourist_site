@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  margin: 0px;
+  font-family: "Kalam", cursive;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+.hero {
+  background-image: url("images/madison.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+}
+
+.town {
+  color: white;
+  background: red;
+  text-shadow: 0px 0px 5px black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.intro {
+  color: red;
+  background: white;
+  text-shadow: 0px 0px 3px black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 0px;
+  width: 400px;
+}
+
+.activities {
+  background: red;
+  margin: 0;
+  padding: 10px;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+}
+.act-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.setwidth {
+  width: 200px;
+}
+
+.underline {
+  border-bottom: 3px solid white;
+}
+
+.guide {
+  height: 300px;
+  width: 400px;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+  background: lightblue;
+  text-align: center;
+}
+
+.myself {
+  border: 4px solid white;
+  border-radius: 10px;
+  height: 200px;
+}
